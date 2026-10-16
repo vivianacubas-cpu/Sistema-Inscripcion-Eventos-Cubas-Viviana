@@ -1,0 +1,22 @@
+* { box-sizing: border-box; }
+:root {
+  color-scheme: light;
+  --morado: #6d28d9;
+  --morado-oscuro: #4c1d95;
+  --lavanda: #f5f0ff;
+  --texto: #251b35;
+  --muted: #766b87;
+}
+html { min-height: 100%; background: #f8f6fc; }
+body {
+  margin: 0;
+  font-family: 'DM Sans', sans-serif;
+  color: var(--texto);
+  background:
+    radial-gradient(circle at 12% 8%, rgba(196, 181, 253, .36), transparent 27rem),
+    radial-gradient(circle at 92% 32%, rgba(233, 213, 255, .55), transparent 25rem),
+    #faf8ff;
+}
+button, input, select { font: inherit; }
+button { -webkit-tap-highlight-color: transparent; }
+::selection { background: #ddd6fe; color: #3b0764; }
